@@ -13,6 +13,7 @@ public class distance {
         double mile=  1760*yards;
         System.out.println("miles"+mile);
         System.out.println("yards"+yards);
+        input.close();
     }
     
 }
