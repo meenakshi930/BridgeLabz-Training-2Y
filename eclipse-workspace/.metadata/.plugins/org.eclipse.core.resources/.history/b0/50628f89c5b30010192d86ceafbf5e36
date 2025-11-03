@@ -1,0 +1,8 @@
+//Scenario: Convert all employee names in uppercase for an HR letter.
+//Task: Use String::toUpperCase in a stream.
+
+package lambdaexpression1;
+
+public class Name_Uppercasing {
+
+}

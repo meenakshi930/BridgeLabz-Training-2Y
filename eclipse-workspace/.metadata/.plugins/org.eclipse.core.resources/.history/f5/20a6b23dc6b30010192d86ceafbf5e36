@@ -1,0 +1,34 @@
+//1. Smart Device Control Interface
+//○ Scenario: All devices (lights, AC, TV) should have turnOn() and turnOff()
+//methods.
+//○ Task: Create an interface and implement it in multiple classes.
+
+
+package functionalinterface;
+
+import java.util.Scanner;
+
+@FunctionalInterface
+ interface Smart {
+	void display();
+}
+
+public class Smart_Device {
+	public static void main(String[] args) {
+		
+
+		 Scanner input = new Scanner(System.in);
+	        System.out.print("Enter filter type (price/rating/discount): ");
+	        String n = input.next();
+		Smart light = () -> System.out.println("turn on");
+		light.display();
+		Smart AC = () -> System.out.println("turn on");
+		AC.display();
+		Smart tv = () -> System.out.println("turn on");
+		tv.display();
+		
+		
+		
+	
+
+}
